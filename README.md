@@ -6,7 +6,7 @@ I have made different deep-learning models using MNIST dataset for handwritten n
 The primary focus of this study is on understanding the capabilities and limitations of DL models in five key areas:
 
 ### Data Augmentation Techniques: 
-The report investigates the impact of three different data augmentation techniques on model performance.
+The study investigates the impact of three different data augmentation techniques on model performance.
 
 ### Model Architectures: 
 Three distinct model architectures with varying numbers of layers are explored to assess their predictive power and training efficiency.
@@ -20,4 +20,4 @@ Each model type's strengths and weaknesses are explored.
 ### Optimization Methods:
 The effectiveness of three different optimization techniques is evaluated.
 
-The report emphasizes the importance of maintaining user-friendliness while implementing alternative approaches and model architectures, ensuring that DL models remain accessible to a broad range of users. 
+The study emphasizes the importance of maintaining user-friendliness while implementing alternative approaches and model architectures, ensuring that DL models remain accessible to a broad range of users. 
