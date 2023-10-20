@@ -24,7 +24,7 @@ To run this project, you need to install the required libraries and dependencies
 pip install -r requirements.txt
 ```
 
-# Hyperparameters
+## Hyperparameters
 The project uses various hyperparameters to configure the training process:
 
 Input Size: 784
@@ -34,7 +34,7 @@ Number of Epochs: 6
 Batch Size: 100
 Learning Rate: 0.01
 
-# Data Augmentation
+## Data Augmentation
 To improve model resilience, the project applies three data augmentation techniques:
 
 Horizontal Flip at Random
@@ -43,7 +43,7 @@ Color Jittering
 Models
 Three different models are implemented in this project:
 
-# MLP Model:
+## MLP Model:
 
 Input Layer: 784 neurons
 Two Hidden Layers, each with 32 neurons
@@ -64,5 +64,5 @@ Fully Connected Layers
 Training
 The models are trained using different optimizers, such as Adam, RMSprop, and SGD. The project logs training loss and accuracy during each epoch using wandb.
 
-# Results
+## Results
 The project records the loss and accuracy of each model, comparing their performance across epochs. Results can be visualized in Weight & Biases (wandb).
