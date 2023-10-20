@@ -1,23 +1,24 @@
-# Deep-learning-MINT
-This study delves into the intricate world of Deep Learning (DL) models. 
-The study extensively explores different factors that profoundly influence the performance of these models.
-I have made different deep-learning models using MNIST dataset for handwritten numbers. 
+# Deep Learning Model Comparison
 
-The primary focus of this study is on understanding the capabilities and limitations of DL models in five key areas:
+This repository contains code for comparing the performance of different deep learning models on the MNIST dataset. The project explores three models: Multi-Layer Perceptron (MLP), 1-D Convolutional, and 2-D Convolutional models. The performance of each model is tracked using Weight & Biases (wandb) for loss and accuracy.
 
-### Data Augmentation Techniques: 
-The study investigates the impact of three different data augmentation techniques on model performance.
+## Table of Contents
+- [Project Description](#project-description)
+- [Installation](#installation)
+- [Hyperparameters](#hyperparameters)
+- [Data Augmentation](#data-augmentation)
+- [Models](#models)
+- [Training](#training)
+- [Results](#results)
+- [License](#license)
 
-### Model Architectures: 
-Three distinct model architectures with varying numbers of layers are explored to assess their predictive power and training efficiency.
+## Project Description
 
-### Activation Functions:
-The influence of three diverse activation functions on model behaviour is examined.
+In this project, we evaluate the performance of different deep learning models on the MNIST dataset. Each model is implemented and trained using PyTorch, and their performance is tracked with Weight & Biases (wandb).
 
-### DL Model Types:
-Each model type's strengths and weaknesses are explored.
+## Installation
 
-### Optimization Methods:
-The effectiveness of three different optimization techniques is evaluated.
+To run this project, you need to install the required libraries and dependencies. You can do this by running:
 
-The study emphasizes the importance of maintaining user-friendliness while implementing alternative approaches and model architectures, ensuring that DL models remain accessible to a broad range of users. 
+```bash
+pip install -r requirements.txt
