@@ -66,3 +66,6 @@ The models are trained using different optimizers, such as Adam, RMSprop, and SG
 
 ## Results
 The project records the loss and accuracy of each model, comparing their performance across epochs. Results can be visualized in Weight & Biases (wandb).
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
